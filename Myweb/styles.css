@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1e8f39;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #444;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 3opx;
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.outline {
+    padding: 20px;
+    background-color: rgb(178, 163, 145);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.outline img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #1f2b9e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.follow {
+    text-align: center;
+}
+
+.follow-button {
+    display: inline-block;
+    margin: 0px;
+    padding: 5px 10px;
+    background-color: #2f424c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.follow-button:hover {
+    background-color: #fff;
+    color: #4C2F2F;
+}
